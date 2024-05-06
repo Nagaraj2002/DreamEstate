@@ -233,13 +233,13 @@ function Search() {
               <option value="createdAt_asc">Oldest</option>
             </select>
           </div>
-          <button className="bg-green-700 text-white p-3 rounded-xl uppercase hover:opacity-95">
+          <button className="bg-sky-700 text-white p-3 rounded-xl uppercase hover:opacity-95">
             Search
           </button>
         </form>
       </div>
       <div className="flex-1">
-        <h1 className="text-3xl font-semibold border-b pt-7 pl-7 pb-2 text-green-700">
+        <h1 className="text-3xl font-semibold border-b pt-7 pl-7 pb-2 text-sky-700">
           Listing Results:
         </h1>
         <div className="p-7 flex flex-wrap gap-4">
@@ -247,7 +247,7 @@ function Search() {
             <p className="text-xl text-red-500">No listing found!</p>
           )}
           {loading && (
-            <p className="text-xl text-green-600 text-center w-full">
+            <p className="text-xl text-sky-600 text-center w-full">
               Loading...
             </p>
           )}
@@ -260,7 +260,7 @@ function Search() {
           {showMore && (
             <button
               onClick={onShowMoreClick}
-              className="text-green-700 hover:shadow-lg p-4 text-center w-full border-2 border-green-600 bg-green-200"
+              className="text-sky-700 hover:shadow-lg p-4 text-center w-full border-2 border-sky-600 bg-sky-200"
             >
               Show more
             </button>

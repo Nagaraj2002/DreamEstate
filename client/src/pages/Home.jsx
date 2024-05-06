@@ -53,13 +53,13 @@ function Home() {
     <div>
       {/* top */}
       <div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
-        <h1 className="text-green-700 font-bold text-3xl lg:text-6xl">
-          Find your next <span className="text-green-500">perfect</span>
+        <h1 className="text-sky-700 font-bold text-3xl lg:text-6xl">
+          Find your next <span className="text-sky-500">perfect</span>
           <br />
           place with ease
         </h1>
         <div className="text-gray-400 text-xs sm:text-sm">
-          DreamState is the best place to find your next perfect place to
+         DreamEstate is the best place to find your next perfect place to
           live.
           <br />
           We have a wide range of properties for you to choose from.
@@ -95,7 +95,7 @@ function Home() {
         {offerListings && offerListings.length > 0 && (
           <div className="">
             <div className="my-3">
-              <h2 className="text-2xl font-semibold text-green-700">
+              <h2 className="text-2xl font-semibold text-sky-700">
                 Recent offers
               </h2>
               <Link
@@ -117,7 +117,7 @@ function Home() {
         {rentListings && rentListings.length > 0 && (
           <div className="">
             <div className="my-3">
-              <h2 className="text-2xl font-semibold text-green-700">
+              <h2 className="text-2xl font-semibold text-sky-700">
                 Recent places for rent
               </h2>
               <Link
@@ -139,7 +139,7 @@ function Home() {
         {saleListings && saleListings.length > 0 && (
           <div className="">
             <div className="my-3">
-              <h2 className="text-2xl font-semibold text-green-700">
+              <h2 className="text-2xl font-semibold text-sky-700">
                 Recent places for sale
               </h2>
               <Link

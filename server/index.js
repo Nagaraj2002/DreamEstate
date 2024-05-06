@@ -12,7 +12,7 @@ dotenv.config()
  
 //create express app
 const app = express();
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 
 //connect the mongodb database
 mongoose.connect(process.env.MONGO_URI).then(() => {

@@ -16,11 +16,11 @@ const ListingItem = ({ listing }) => {
           className="h-[320px] sm:h-[220px] w-full object-cover hover:scale-105 transition-scale duration-300"
         />
         <div className="p-3 flex flex-col gap-2 w-full">
-          <p className="truncate text-lg font-semibold text-green-700">
+          <p className="truncate text-lg font-semibold text-sky-700">
             {listing.name}
           </p>
           <div className="flex items-center gap-1">
-            <MdLocationOn className="h-4 w-4 text-green-700" />
+            <MdLocationOn className="h-4 w-4 text-sky-700" />
             <p className="text-sm text-gray-600 truncate w-full">
               {listing.address}
             </p>
@@ -35,7 +35,7 @@ const ListingItem = ({ listing }) => {
               : listing.regularPrice.toLocaleString("en-US")}
             {listing.type === "rent" && " / month"}
           </p>
-          <div className="text-green-700 flex gap-4">
+          <div className="text-sky-700 flex gap-4">
             <div className="flex items-center gap-2 font-bold text-xs">
               <FaBed className="text-lg" />
               {listing.bedRooms > 1

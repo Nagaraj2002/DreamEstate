@@ -178,7 +178,7 @@ function Profile() {
 
   return (
     <div className="p-3 max-w-lg mx-auto text-center">
-      <h1 className="text-green-700 text-3xl font-semibold text-center my-7">
+      <h1 className="text-sky-700 text-3xl font-semibold text-center my-7">
         Profile
       </h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -201,7 +201,7 @@ function Profile() {
               Error Image Upload (Image must be less than 2 mb)
             </span>
           ) : filePerc > 0 && filePerc < 100 ? (
-            <span className="text-green-700">{`Uploading ${filePerc}%`}</span>
+            <span className="text-sky-700">{`Uploading ${filePerc}%`}</span>
           ) : filePerc === 100 ? (
             // <div className="border-red-500 flex text-indigo-950 gap-2">
             //   <span>
@@ -237,7 +237,7 @@ function Profile() {
         />
         <button
           disabled={loading}
-          className="bg-green-700 p-3 rounded-xl text-white uppercase hover:opacity-95 disabled:opacity-60"
+          className="bg-sky-700 p-3 rounded-xl text-white uppercase hover:opacity-95 disabled:opacity-60"
         >
           {loading ? "Loading..." : "Update"}
         </button>
@@ -257,7 +257,7 @@ function Profile() {
         </span>
         <button
           onClick={handleShowListings}
-          className="text-green-700 rounded-lg border-2 border-green-600 p-2 bg-green-200 hover:shadow-lg font-bold"
+          className="text-sky-700 rounded-lg border-2 border-sky-600 p-2 bg-sky-200 hover:shadow-lg font-bold"
         >
           Show Listings
         </button>
@@ -293,7 +293,7 @@ function Profile() {
                 />
               </Link>
               <Link
-                className="flex-1 text-green-700 font-semibold truncate hover:underline"
+                className="flex-1 text-sky-700 font-semibold truncate hover:underline"
                 to={`/listing/${listing._id}`}
               >
                 <p>{listing.name}</p>
@@ -306,7 +306,7 @@ function Profile() {
                   Delete
                 </button>
                 <Link to={`/update-listing/${listing._id}`}>
-                  <button className="text-green-600 uppercase">Edit</button>
+                  <button className="text-sky-600 uppercase">Edit</button>
                 </Link>
               </div>
             </div>

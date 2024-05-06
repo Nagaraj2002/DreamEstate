@@ -27,15 +27,15 @@ function Header() {
   }, [location.search])
 
   return (
-    <header className="bg-green-100 shadow-md sticky top-0 z-50">
+    <header className="bg-sky-100 shadow-md sticky top-0 z-50">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
         <Link to="/">
           <h1 className="font-bold lg:text-2xl sm:text-xl flex flex-wrap">
-            <span className="text-green-500">Dream</span>
-            <span className="text-green-700">State</span>
+            <span className="text-sky-500">Dream</span>
+            <span className="text-sky-700">Estate</span>
           </h1>
         </Link>
-        <form onSubmit={handleSubmit} className="bg-green-50 p-3 rounded-full flex items-center">
+        <form onSubmit={handleSubmit} className="bg-sky-50 p-3 rounded-full flex items-center">
           <input
             type="text"
             placeholder="Search..."
@@ -44,17 +44,17 @@ function Header() {
             onChange={(e) => setSearchTerm(e.target.value)}
           />
           <button>
-            <FaSearch className="text-green-600" />
+            <FaSearch className="text-sky-600" />
           </button>
         </form>
         <ul className="sm:flex gap-8 items-center">
           <Link to="/">
-            <li className="hidden font-bold sm:inline text-green-700 hover:underline">
+            <li className="hidden font-bold sm:inline text-sky-700 hover:underline">
               Home
             </li>
           </Link>
           <Link to="/about">
-            <li className="hidden font-bold sm:inline text-green-700 hover:underline">
+            <li className="hidden font-bold sm:inline text-sky-700 hover:underline">
               About
             </li>
           </Link>
@@ -66,7 +66,7 @@ function Header() {
                 alt="profile_image"
               />
             ) : (
-              <li className="text-green-700 hover:underline">SignIn</li>
+              <li className="text-sky-700 hover:underline">SignIn</li>
             )}
           </Link>
         </ul>

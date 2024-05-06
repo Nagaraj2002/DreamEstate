@@ -181,7 +181,7 @@ function CreateListing() {
 
   return (
     <main className="p-3 max-w-4xl mx-auto">
-      <h1 className="text-green-700 text-3xl font-semibold text-center my-7">
+      <h1 className="text-sky-700 text-3xl font-semibold text-center my-7">
         Create a Listing
       </h1>
       <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4">
@@ -340,7 +340,7 @@ function CreateListing() {
           <div className="flex gap-4">
             <input
               onChange={(e) => setFiles(e.target.files)}
-              className="border p-3 border-green-600 rounded w-full "
+              className="border p-3 border-sky-600 rounded w-full "
               type="file"
               id="images"
               accept="image/*"
@@ -350,7 +350,7 @@ function CreateListing() {
               type="button"
               disabled={uploading}
               onClick={handleImageSubmit}
-              className="p-3 border text-green-700 border-green-700 rounded uppercase hover:shadow-lg disabled:opacity-80"
+              className="p-3 border text-sky-700 border-sky-700 rounded uppercase hover:shadow-lg disabled:opacity-80"
             >
               {uploading ? "Uploading..." : "Upload"}
             </button>
@@ -380,7 +380,7 @@ function CreateListing() {
             ))}
           <button
             disabled={loading || uploading}
-            className="bg-green-700 p-3 rounded-xl text-white uppercase hover:opacity-95 disabled:opacity-60"
+            className="bg-sky-700 p-3 rounded-xl text-white uppercase hover:opacity-95 disabled:opacity-60"
           >
             {loading ? "Creating..." : "Create Listing"}
           </button>

@@ -53,7 +53,7 @@ function SignUp() {
 
   return (
     <div className="max-w-lg p-3 mx-auto">
-      <h1 className="text-green-700 text-3xl text-center font-semibold my-7">
+      <h1 className="text-sky-700 text-3xl text-center font-semibold my-7">
         Sign Up
       </h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -80,7 +80,7 @@ function SignUp() {
         />
         <button
           disabled={loading}
-          className="bg-green-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-60"
+          className="bg-sky-700 text-white p-3 rounded-lg uppercase hover:opacity-95 disabled:opacity-60"
         >
           {loading ? "Loading..." : "Sign Up"}
         </button>
