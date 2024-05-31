@@ -1,5 +1,5 @@
 # 🏠 DreamState Real Estate Website
-![Screenshot from 2024-05-01 12-30-42](https://github.com/Nagaraj2002/git-dummy/blob/main/WhatsApp%20Image%202024-05-07%20at%2002.07.22_42e5de6b.jpg)
+![Sixth Screenshot](https://drive.google.com/uc?export=view&id=1hBRdW0bAaAapAfsQO9DhV_36ElP7IQCA)
 
 ## 🔰 Overview
 
@@ -28,11 +28,11 @@ DreamState is a real estate website that allows users to browse listings, create
      - Discount price for offers
      - Upload site images
        
-     ![Screenshot from 2024-05-01 12-40-26](https://github.com/Nagaraj2002/git-dummy/blob/main/WhatsApp%20Image%202024-05-07%20at%2002.06.55_9e72af30.jpg)
+     ![Seventh Screenshot](https://drive.google.com/uc?export=view&id=1LPCCbCJBHk-faqwRtacW1F3M6fjDg7PN)
 
 5. **Advanced Search**
    - Users can search listings using multiple filters
-     ![Screenshot from 2024-05-01 12-32-18](https://github.com/Nagaraj2002/git-dummy/blob/main/WhatsApp%20Image%202024-05-07%20at%2002.08.54_e0643e69.jpg)
+     ![Eighth Screenshot](https://drive.google.com/uc?export=view&id=1nW3b_LNPVrZEMFFS2bwW-pi3Flf1oNWm)
 
 6. **Contact Landlord**
    - Users can contact the landlord of a site listing by:
