@@ -1,9 +1,9 @@
-# 🏠 DreamState Real Estate Website
+# 🏠 DreamEstate Real Estate Website
 ![Sixth Screenshot](https://drive.google.com/uc?export=view&id=1hBRdW0bAaAapAfsQO9DhV_36ElP7IQCA)
 
 ## 🔰 Overview
 
-DreamState is a real estate website that allows users to browse listings, create their listings, and connect with landlords. It provides manual sign-in/sign-up features, OAuth with Google, user profile management, and advanced search functionality.
+DreamEstate is a real estate website that allows users to browse listings, create their listings, and connect with landlords. It provides manual sign-in/sign-up features, OAuth with Google, user profile management, and advanced search functionality.
 
 ## 🌟 Features
 
